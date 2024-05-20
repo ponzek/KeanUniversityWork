@@ -1,0 +1,10 @@
+import pandas as pd
+
+#load sample CSV data
+df = pd.read_csv('sample.csv')
+
+#display basic information
+print(df.info())
+
+#display the first 5 rows of the dataframe
+print(df.head())
